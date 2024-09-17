@@ -22,10 +22,11 @@
 	
 <!-- body - главная, содержательная часть страницы. Контент на этой странице делится на меню (nav), "шапку" (header), "подвал" (footer) и все остальное (мы заключили остаток в тег section) -->	
 	<body>
+	<font face="Lucida Sans Unicode">
 
 <!-- меню (navigation bar) -->
 
-		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+		<nav  class="navbar navbar-default navbar-fixed-top navbar-custom">
 
 <!-- div - это контейнеры - коробочки с текстом и/или графикой, которые можно вкладывать друг в друга. Пристально смотреть на теги в этой части кода не нужно -->
 			<div class="container"> 
@@ -34,9 +35,8 @@
 				</div> 
 				<nav class="collapse navbar-collapse" id="bs-navbar"> 
 					<ul class="nav navbar-nav navbar-right"> 
-						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/index.html">Страница курса</a> </li> 
-						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/latin_2.html">Страница группы</a> </li> 
-<!-- поправьте номер группы в URL, если нужно (от 1 до 4) -->
+						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2024/index.html">Страница курса</a> </li> 
+						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2024/baling_2024_1.html">Страница группы</a> </li>
 					</ul>
 				</nav> 
 			</div>
@@ -44,20 +44,30 @@
 
 <!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
 
-		<header style="background-color:pink; padding-top:70px; "> 
+		<header style="background-color:#FFDAB9; padding-top:80px; "> 
 			<div class="container"> 
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-5">
 						<br><br>
 <!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
-						<h1>Женя Сорокина</h1>
-						<hr> <!-- это горизонтальная линия -->
-						<p>привет всем добро пожаловать на мою страничку</p> 
+						<font style="color:#800000">
+						<h1><strong>Всем привет и добро пожаловать</strong></h1>
+						<hr>
+						<p>Я Женя, а вы попали ко мне на страничку</p>
+						</font>
 					</div>
 					<div class="col-md-4">
 <!-- img - тег для вставки изображений. Мы использовали атрибут style, чтобы задать размер изображения и ширину рамки-->
 <!-- Измените URL на URL вашей фотографии, а также настройте размер изображения -->
-<img src="https://i.pinimg.com/564x/7c/25/b2/7c25b2c3d56240657e92ef81a7f85785.jpg" style="height:320px; margin:20px 20px 40px 20px; " >
+<img src="iits mee.jpg" style="height:400px; margin:0px 0px 30px 200px; " >
+					</div>
+					<div class="col-md-3">
+						
+<!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
+						<font style="color:#800000">
+						<p style="margin:400px 0px 30px 0px"> это уставшая я</p>
+						</font>
+						
 					</div>
 				</div>
 			</div>
@@ -68,8 +78,8 @@
 			<div class="container">
 
 <!-- атрибут col-md-... говорит, что контент будет разделен на несколько столбцов, их ширина соотносится как 3 - 6 - 3 (Bootstrap использует воображаемую сетку из 12 равных по ширине колонок) -->
-				<div class="col-md-3">
-
+				<div class="col-md-3" style="background-color:#FFDAB9; padding-left=50" >
+				<font style="color:#800000">
 <!-- <article> не влияет на оформление, но помогает структурировать контент на осмысленые разделы -->
 					<article>
 						<h3>Место учебы</h3>
@@ -81,43 +91,43 @@
 					</article>
 					<article>
 						<h3>Школа</h3>
-<!-- когда будете менять текст, не используйте бюрократических слов типа ГБОУ СОШ, ну пожаалуйста -->
-						<p>Школа 1797</p>
+						<p>Школа 1797 (никому не советую)</p>
 					</article>
-				</div>
-
-				<div class="col-md-6">
 					<article>
-						<h3>Тут можно написать</h3>
-						<p>Еще много много много много много много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						всего о себе</p>
+						<h3>Контакты</h3>
+					<ul>
+						<li><a href=https://t.me/schwaermer target="_blank" >Телеграм</a></li>
+						<li><a href=https://vk.com/id758454212 target="_blank" >ВК</a></li>
+					</ul>
+					<br><br>
 					</article>
 				</div>
-
-				<div class="col-md-3">
-					<h3>Я в соцсетях</h3>
-<!-- тег <ul> - unordered list. Еще бывает тег <ol> -->
-					<ul>
-						<li>VK</li>
-						<li>Discord</li>
-						<li>Telegram</li>
-					</ul>
+				</font>
+				<div class="col-md-8">
+					<article>
+						
+						<h2>Самое важное</h2>
+						<hr>
+						<font size="4">
+						<ul>
+						 <li>С детства жила и училась в разных странах (Шри-Ланке и Германии), постоянно находилась в иноязычной среде, а еще моя мама лингвист, вот поэтому я сейчас на фикле</li>
+						 <li>Больше всего люблю немецкий язык!! Он буквально заставляет меня жить, занимаюсь им много лет, читаю книжки в оригинале, дружу с немцами, состою в двух немецких клубах и мне все еще мало</li>
+						 <li>Помимо языков я еще рисую, до 10 класса была уверена, что буду поступать в художественный вуз в Германию, но как-то не сложилось..</li>
+						</ul>
+						</font>
+					</article>
 				</div>
 			</div>
 		</section>
 
 <!-- это подвал. В этой части страницы обычно ставят копирайт (с помощью символа &copy;) и пишут об истории создания страницы. Поставьте свой копирайт -->
-		<footer class="bs-docs-footer"> 
+		<footer class="bs-docs-footer" style="background-color:#BDB76B; padding-top:20px" > 
 			<div class="container"> 
-				<p style="text-align:right; ">&copy; В. Кузнецова, 2024</p> 
+			<font style="color:#FFFFFF">
+				<p style="text-align:right; ">Всем хорошего дня <br> &copy; Женя, 2024</p>
+			</font>
 			</div>
 		</footer>
+	</font>
 	</body>
 </html>
